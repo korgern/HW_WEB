@@ -6,16 +6,20 @@
     font-family: "Changa One";
     src: url("./fonts/ChangaOne-Regular.ttf");
 }
+@font-face {
+    font-family: "Roboto";
+    src: url("./fonts/Roboto-Regular.ttf");
+}
 * {
     padding: 0;
     margin: 0;
 }
 
+/* Header style */
 .container120 {
-    max-width: 1200px;
+    max-width: 1440px;
     padding: 0 120px;
 }
-
 
 header {
     max-width: 100vw;
@@ -44,21 +48,27 @@ header {
     align-items: center;
     justify-content: center;
     margin: auto;
-
+    white-space: nowrap;
 }
 
 .block-link{
+    font-family: "Roboto";
+    font-size: 16px;
     color: #495367;
-
+    display: flex;
+    justify-content: space-between;
 }
 
 .block-link ul{
     display: flex;
     justify-content: space-around;
+    list-style: none;
+     
 }
 
 .block-link li{
-    list-style-type: none;
+    flex: 1;
+    margin-right: 20px; 
 }
 
 .block-link a{
@@ -68,6 +78,17 @@ header {
 .block-img {
     display: flex;
     justify-content: space-around;
-
 }
+
+.block-img img{
+    margin: 0 10px;
+}
+
+/* Main previev */
+
+/* .main-previev {
+    width: 1440px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom,#8A53FF, #fff)
+}  */
 
