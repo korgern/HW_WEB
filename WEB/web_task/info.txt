@@ -1,0 +1,9 @@
+По HTML - https://www.w3schools.com/html/default.asp
+По CSS - https://www.w3schools.com/html/default.asp
+Именования коммитов: https://habr.com/ru/articles/183646/
+
+Документация mozilla: https://developer.mozilla.org/ru/docs/Learn/HTML
+
+Блок HTML/CSS:
+https://www.figma.com/design/xC3VHAMZNq9Nm9x2TgnHei/Locofy-Sample-Project---Talking-Travel-(Community)?node-id=202-712&node-type=FRAME&t=5PMJqEwhS0GUOJDO-0
+
