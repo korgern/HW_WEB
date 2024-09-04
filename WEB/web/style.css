@@ -41,14 +41,20 @@ header {
 
 .navbar {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
 }
 
 .block-link{
     color: #495367;
+
 }
 
 .block-link ul{
     display: flex;
+    justify-content: space-around;
 }
 
 .block-link li{
@@ -60,6 +66,8 @@ header {
 }
 
 .block-img {
+    display: flex;
+    justify-content: space-around;
 
 }
 
