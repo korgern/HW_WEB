@@ -37,6 +37,7 @@ header {
     padding: 10px 0;
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .block-logo p{
@@ -55,6 +56,8 @@ header {
     justify-content: center;
     margin: auto;
     white-space: nowrap;
+    margin-left: auto;
+
 }
 
 .block-link{
@@ -93,28 +96,120 @@ header {
 /* Main previev */
 
 .main-previev {
-    height: 580px;
-    width: flex;
-    display: flex;
-    padding: 0 60px;
-    /* background-image: url('./images/hero_background_image.png'); */
+    background-image: url('./images/hero_background_image.png');
+    background-position: center;
+    background-size: contain;
     background-repeat: no-repeat;
-    
+    max-width: 1440px;
+    width: auto;
+    height: 580px;
+    display: flex;
+    justify-content: flex;
+    /* padding: 0 120px; */
+    align-items: center;
+  
 } 
 
-.main-previev img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding-left: 60px;
-}
-
-.main-previev-content{
+.main-previev-hero-text{
     width: 765px;
     height: 580px;
-    padding: 120px, 40px, 140px;
-    text-align: center;
+    align-items: center; 
+    justify-content: center;
+    text-align: left;
+    position: absolute;
+    margin-top: 290px;  
+    margin-left: 140px;
+
 }
+.main-previev-title{
+    font-family: "Changa One";
+    font-size: 73px;
+}
+.main-previev-desc {
+    font-family: "Roboto";
+    color: #434343;
+    font-size: 22px;
+    line-height: 36px;
+    margin-top: 12px;
+}
+
+.call-to-action{
+    width: 360px;
+    height: 46px;
+    font-family: "Roboto";
+    color: #434343;
+    font-size: 16px;
+    align-items: center;
+    /* background-color: aqua; */
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.call-to-action button{
+    width: 166px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: #8A53FF;
+    color: white;   
+    border: none;
+}
+.featured-destination{
+    max-width: 1440px;
+    height: 552px;
+    width: auto;
+    justify-content: space-between;
+}
+.featured-destination img{
+    padding-top: 107px;
+    padding-left: 140px;
+}
+
+.featured-destination-blurb{
+    width: 580px;
+    height: 292px;
+    float: right;
+    padding-top: 107px;
+    justify-items: auto;
+}
+.featured-destination-cat{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #8A53FF;
+}
+.featured-destination-title{
+    font-family: "Changa One";
+    font-size: 39px;
+    color: #434343;
+}
+.featured-destination-desc{
+    font-family: "Roboto"; 
+    font-size: 18px;
+    color: #434343;
+}
+.featured-destination-watch{
+    padding-top: 24px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #8A53FF;
+    justify-content: space-between;
+}
+.featured-destination-watch img{
+    width: 36px;
+    height: 36px;
+    padding: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 .discover_the_world_box{
