@@ -320,6 +320,8 @@ header {
     background-color: #fff;
     width: 617px;
     height: 612px;
+    padding: 28px, 30px, 28px, 30px;
+
 }
 
 .share_travel_form_desc{
@@ -328,6 +330,10 @@ header {
     align-items: center;
     text-align: left;
     line-height: 34px;
+    padding-left: 30px;
+    white-space: normal;
+    padding-top: 58px;
+    padding-bottom: 17px;
 }
 .share_travel_form_desc span{
     font-family: "Changa One";
@@ -349,30 +355,50 @@ form{
     font-size: 16px;
     line-height: 24px;
     justify-content: space-around;
-    border-radius: 4px;
+    vertical-align: auto;
     border: 1px;
     flex-direction: column;
     display: flex;
 }
 input{
-    /* border: 1; */
-    /* width: 557px; */
+    border: 1px  solid #434343;
+    border-radius: 4px;
     height: 56px;
-    /* border-radius: 4px; */
+}
+input:focus{
+    outline: none;
+    border: 1px solid #8A53FF;
+}
+textarea:focus{
+    outline: none;
+    border: 1px solid #8A53FF;
+}
+option:focus{
+    outline: none;
+    border: 1px solid #8A53FF;
+}
+optgroup{
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
 }
 option{
-    /* font-family: "Roboto"; */
-    /* font-size: 16px; */
-    /* line-height: 24px; */
-    /* width: 557px; */
+    outline: none;
+    border: 1px solid #8A53FF;
     height: 56px;
-    /* border-radius: 4px; */
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
 }
 textarea{
+    border: 1px  solid #434343;
     width: 557px;
     height: 102px;
-
-    
+    border-radius: 4px;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .form_button{
@@ -385,4 +411,5 @@ textarea{
     height: 46px;
     border-radius: 4px;
     color: #fff;
+    border: none;
 }
