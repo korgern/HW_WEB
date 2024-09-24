@@ -57,7 +57,6 @@ header {
     margin: auto;
     white-space: nowrap;
     margin-left: auto;
-
 }
 
 .block-link{
@@ -71,8 +70,7 @@ header {
 .block-link ul{
     display: flex;
     justify-content: space-around;
-    list-style: none;
-     
+    list-style: none; 
 }
 
 .block-link li{
@@ -107,7 +105,6 @@ header {
     justify-content: flex;
     /* padding: 0 120px; */
     align-items: center;
-  
 } 
 
 .main-previev-hero-text{
@@ -119,7 +116,6 @@ header {
     position: absolute;
     margin-top: 290px;  
     margin-left: 140px;
-
 }
 .main-previev-title{
     font-family: "Changa One";
@@ -144,7 +140,6 @@ header {
     margin-top: 34px;
     display: flex;
     justify-content: space-between;
-
 }
 .call-to-action button{
     width: 166px;
@@ -186,31 +181,26 @@ header {
     font-family: "Roboto"; 
     font-size: 18px;
     color: #434343;
+    line-height: 33px;
 }
 .featured-destination-watch{
     padding-top: 24px;
     font-family: 'Roboto';
     font-size: 16px;
     color: #8A53FF;
-    justify-content: space-between;
+    display: flex;
+}
+
+.featured-destination-watch span{
+    line-height: normal;
+    justify-content: center; 
+    /* align-items: center;  */
+    padding-top: 10px;
+    padding-left: 12px;
 }
 .featured-destination-watch img{
-    width: 36px;
-    height: 36px;
-    padding: auto;
+    padding: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .discover_the_world_box{
     width: fill;
@@ -239,9 +229,160 @@ header {
     color: #434343;
 }
 
-.discover_the_world_location_cards{
+.discover_the_world_cards{
     width: 1220px;
     height: 410px;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    /* display: inline; */
+    /* flex-wrap: nowrap; */
+    /* flex-direction: column; */
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 119px;
+}
 
 
+.country_card{
+    /* max-width: 300px; */
+    /* max-width: 410px; */
+    display: inline-block;
+    /* align-items: center; */
+    /* justify-content: space-around; */
+    
+}
+
+
+
+.country_card p{
+    font-family: "Roboto";
+    font-size: 16px;
+    color: #8A53FF;
+    padding-top: 10px;
+}
+
+.country_card span{
+    font-family: "Changa One";
+    font-size: 24px;
+    color: #434343;
+}
+.country_card img{
+    width: 268px;
+    height: 318px;
+}
+
+
+.share_travel{
+    max-width: 1440px;
+    max-height: 900px;
+    display:  flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-left: 20;
+    background-image: url('./images/Share_travel_bg.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+
+.share_travel_form_head{
+    align-items: center;
+    width: 658px;
+    height: 758px;
+    padding-top: 20px;
+}
+
+.share_travel_header{
+    width: 617px;
+    height: 76px;
+    padding-bottom: 30px;
+}
+
+.share_travel_header span{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #8A53FF;
+    width: 617px;
+    height: 21px;
+}
+
+.share_travel_header p{
+    font-family: "Changa One";
+    font-size: 39px;
+    color: #434343;
+    width: 617px;
+    height: 40px;
+}
+
+.share_travel_form{
+    background-color: #fff;
+    width: 617px;
+    height: 612px;
+}
+
+.share_travel_form_desc{
+    width: 557px;
+    height: 110px;
+    align-items: center;
+    text-align: left;
+    line-height: 34px;
+}
+.share_travel_form_desc span{
+    font-family: "Changa One";
+    font-size: 24px;
+    color: #434343;
+    padding-bottom: 20px;
+}
+.share_travel_form_desc p{
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #576074;
+}
+
+form{
+    padding-top: 17px;
+    width: 557px;
+    height: 366px;
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: space-around;
+    border-radius: 4px;
+    border: 1px;
+    flex-direction: column;
+    display: flex;
+}
+input{
+    /* border: 1; */
+    /* width: 557px; */
+    height: 56px;
+    /* border-radius: 4px; */
+}
+option{
+    /* font-family: "Roboto"; */
+    /* font-size: 16px; */
+    /* line-height: 24px; */
+    /* width: 557px; */
+    height: 56px;
+    /* border-radius: 4px; */
+}
+textarea{
+    width: 557px;
+    height: 102px;
+
+    
+}
+
+.form_button{
+    font-family: "Roboto";
+    font-size: 16px;
+    line-height: 18.75px;
+    text-align: center;
+    background-color: #8A53FF;
+    width: 222px;
+    height: 46px;
+    border-radius: 4px;
+    color: #fff;
 }
